@@ -34,6 +34,9 @@ void dfs(int start_node, int num_nodes)
 	int i, current_node;
 	push(start_node);
 	visited[start_node] = 1;
+	printf("Traversal order:");
+
+
 	
 	while(top != -1)
 	{
